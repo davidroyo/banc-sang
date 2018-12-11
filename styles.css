@@ -9,12 +9,15 @@ padding-top: 3em;
 
 }
 
-div{
+article{
+  margin-left:35%;
+}
 
+div{
+justify-content: center;
 display: inline-block;
 margin-bottom: 1.5em;
 margin:1em;
-
 
 
 }
