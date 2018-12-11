@@ -1,5 +1,18 @@
+header{
+
+
+}
+
 section h2{
 text-align: center;
 padding-top: 3em;
+
+}
+
+div{
+
+display: inline-block;
+
+
 
 }
