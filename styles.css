@@ -10,14 +10,19 @@ padding-top: 3em;
 }
 
 article{
-  margin-left:35%;
+  width: 100%;
 }
 
 div{
-justify-content: center;
 display: inline-block;
 margin-bottom: 1.5em;
 margin:1em;
 
-
 }
+
+#info{
+  width: 12%;
+}
+
+#requisitos{
+  width: 7%;
