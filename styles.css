@@ -47,25 +47,27 @@ table {
 
 body {
     font-family: arial;
+
 }
 
 header{
     width: 100%;
-    height: 95px;
+    height: 4.7em;
     background-color: #EA2F2C;
 }
 
 div.capa-fosca{
     width: 100%;
-    height: 100vh;
+    height: 89vh;
     margin:0;
     background-color: black;
     opacity:.3;
 }
 
 section {
-    background-image: url("https://www.donateblood.com.au/sites/default/files/Secret-santa-homepage.jpg");
+    background-image: url("images/background.jpg");
     background-size: cover;
+
 }
 
 section h2{
