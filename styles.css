@@ -45,6 +45,12 @@ table {
 
 /*AQUI COMENÇA EL NOSTRE CODI*/
 
+
+/*FONTS*/
+@import url("https://www.donateblood.com.au/sites/all/themes/custom/arcbs/assets/webfonts/2D3451_0_0.woff2");
+@import url("https://www.donateblood.com.au/sites/all/themes/custom/arcbs/assets/webfonts/2D3451_1_0.woff2");
+
+
 html {
     overflow-y: hidden;
 }
@@ -56,11 +62,28 @@ body {
 }
 
 header{
-	border-bottom: 2px;
-	border-color: red;
+    display: relative;
+	border-top: 4px solid #e42a20;
     width: 100%;
-    height: 4.7em;
+    height: 100px;
     background-color: white;
+}
+
+header img {
+        margin-top:20px;
+}
+
+header nav {
+    position: absolute;
+    top:0;
+    right:0;
+    text-align: center;
+    padding: 5px;
+}
+
+header nav i {
+    font-size: 45px !important;
+    color: #4D4D4F;
 }
 
 div.capa-fosca{
