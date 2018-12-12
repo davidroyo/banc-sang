@@ -8,14 +8,13 @@ text-align: center;
 padding-top: 3em;
 
 }
-article{
-  width: 100%;
-}
+
 
 div{
-display: inline-block;
-margin-bottom: 1.5em;
-margin:1em;
+  display: inline-block;
+  margin-bottom: 1.5em;
+  margin:1em;
+
 
 }
 
