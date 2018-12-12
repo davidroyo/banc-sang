@@ -45,32 +45,35 @@ table {
 
 /*AQUI COMENÇA EL NOSTRE CODI*/
 
+html {
+    overflow-y: hidden;
+}
+
 body {
     font-family: arial;
-
+    background-image: url("images/background.jpg");
+    background-size: cover;
 }
 
 header{
-		border-top: 3em;
-		border-color: black;
+	border-bottom: 2px;
+	border-color: red;
     width: 100%;
     height: 4.7em;
     background-color: white;
 }
 
-
 div.capa-fosca{
+    position: relative;
     width: 100%;
-    height: 89vh;
     margin:0;
     background-color: black;
     opacity:.3;
+    bottom:0;
 }
 
-section {
-    background-image: url("images/background.jpg");
-    background-size: cover;
-
+article {
+    height: 100vh;
 }
 
 section h2{
