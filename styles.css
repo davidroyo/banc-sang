@@ -63,14 +63,15 @@ body {
 
 header{
     display: relative;
-	border-top: 4px solid #e42a20;
+	border-top: 0.25em solid #e42a20;
     width: 100%;
     height: 100px;
     background-color: white;
 }
 
 header img {
-        margin-top:20px;
+        margin-top:1.5em;
+				margin-left:0.2em;
 }
 
 header nav {
@@ -78,12 +79,18 @@ header nav {
     top:0;
     right:0;
     text-align: center;
-    padding: 5px;
+    padding: 0.3em;
+		margin: 0.2em;
 }
 
 header nav i {
-    font-size: 45px !important;
+    font-size: 2.8em !important;
     color: #4D4D4F;
+}
+header div{
+    display: inline-block;
+    margin-bottom: 1.5em;
+    margin:1em;
 }
 
 div.capa-fosca{
@@ -99,21 +106,30 @@ article {
     height: 100vh;
 }
 
-section h2{
+
+section div {
     text-align: center;
-    padding-top: 3em;
+    display: inline-block;
+		margin:8em;
+		height: ;
+
 }
 
-div{
-    display: inline-block;
-    margin-bottom: 1.5em;
-    margin:1em;
+article{
+
+
+}
+
+
+
+#info{
+	width: 6em;
 }
 
 #requisitos{
-  width: 7%;
+  width: 6em;
 }
 
 #donar{
-    width: 10%;
+    width: 6em;
   }
