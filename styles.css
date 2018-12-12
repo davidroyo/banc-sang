@@ -93,15 +93,6 @@ header div{
     margin:1em;
 }
 
-div.capa-fosca{
-    position: relative;
-    width: 100%;
-    margin:0;
-    background-color: black;
-    opacity:.3;
-    bottom:0;
-}
-
 article {
     height: 100vh;
 }
