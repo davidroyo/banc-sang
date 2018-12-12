@@ -95,6 +95,7 @@ header div{
 
 article {
     height: 100vh;
+		text-align: center;
 }
 
 
@@ -102,11 +103,16 @@ section div {
     text-align: center;
     display: inline-block;
 		margin:8em;
-		height: ;
+		color:white;
+		font-weight: 800;
 
 }
 
-article{
+section h2 {
+		color: white;
+		text-align: center;
+		padding-top: 7em;
+		font-weight: 800;
 
 
 }
@@ -115,12 +121,15 @@ article{
 
 #info{
 	width: 6em;
+	margin-bottom: 0.4em;
 }
 
 #requisitos{
   width: 6em;
+	margin-bottom: 0.4em;
 }
 
 #donar{
     width: 6em;
+		margin-bottom: 0.4em;
   }
