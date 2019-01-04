@@ -57,8 +57,9 @@ html {
 
 body {
     font-family: arial;
-    background-image: url("images/background.jpg");
+    background-image: url("images/backgroundaprende1.jpg");
     background-size: cover;
+
 }
 
 
@@ -96,88 +97,38 @@ header div{
 }
 
 article {
-    height:22em;
+    height: 31em;
 		text-align: center;
-		color: white;
-}
-
-article a{
-	color: white;
-	text-decoration: none;
 }
 
 #APRENDE{
 	padding-top: 1em;
 	width: 19em;
-
-
 }
 
-#REQUISITOS{
-	padding-top: 1em;
-	width: 19em;
-}
 
-#DONAR{
-	padding-top: 1em;
-	width: 19em;
-}
+#divaprende {
 
-section div {
-	margin-top: 5em;
     text-align: center;
     display: inline-block;
-		margin:2em;
 		color:white;
 		font-weight: 800;
 		display:inline-table;
 
 }
 
-#titulo{
-		width: 95.3%;
-		color: white;
-		text-align: center;
-		padding-top: 2em;
-		padding-bottom: 2em;
-		font-weight: 800;
-}
-
 #info{
-	width: 6em;
+	width: 15em;
 	margin-bottom: 0.4em;
 }
-
-#requisitos{
-  width: 6em;
-	margin-bottom: 0.4em;
+#barra{
+  margin-top: 3em;
+  color: white;
+  font-weight: 800;
 }
-
-#donar{
-    width: 6em;
-		margin-bottom: 0.4em;
-  }
-
 
 footer{
 	border-top: 0.1em solid white;
 	margin-left: 2em;
 	margin-right: 2em;
 	color: white;
-
-}
-
-footer div{
-display: inline-block;
-padding: 1em;
-
-}
-#contacto{
-float: right;
-
-}
-
-#snosotros{
-float: right;
-
-}

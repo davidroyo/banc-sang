@@ -97,7 +97,7 @@ header div{
 }
 
 article {
-    height: 100vh;
+    height: 31em;
 		text-align: center;
 }
 
@@ -125,7 +125,12 @@ article {
   margin-top: 3em;
   color: white;
   font-weight: 800;
+}
 
-
+footer{
+	border-top: 0.1em solid white;
+	margin-left: 2em;
+	margin-right: 2em;
+	color: white;
 
 }
