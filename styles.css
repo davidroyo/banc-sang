@@ -65,7 +65,6 @@ body {
     background-size: cover;
 }
 
-
 header{
     display: relative;
 	border-top: 0.25em solid #e42a20;
@@ -136,6 +135,10 @@ section div {
 	display:inline-table;
 	height: auto;
 
+}
+
+body.inicio article h3 {
+	font-size: 2em;
 }
 
 #titulo{
