@@ -181,3 +181,29 @@ float: right;
 float: right;
 
 }
+
+#APRENDE{
+	padding-top: 1em;
+	width: 19em;
+}
+
+
+#divaprende {
+
+    text-align: center;
+    display: inline-block;
+		color:white;
+		font-weight: 800;
+		display:inline-table;
+
+}
+
+#info{
+	width: 15em;
+	margin-bottom: 0.4em;
+}
+#barra{
+  margin-top: 3em;
+  color: white;
+  font-weight: 800;
+}
