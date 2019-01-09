@@ -49,6 +49,10 @@ table {
 /*FONTS*/
 @import url("https://www.donateblood.com.au/sites/all/themes/custom/arcbs/assets/webfonts/2D3451_0_0.woff2");
 @import url("https://www.donateblood.com.au/sites/all/themes/custom/arcbs/assets/webfonts/2D3451_1_0.woff2");
+@font-face {
+	font-family: "Trade Gothic";
+	src: url("fonts/trade-gothic/Trade Gothic LT Bold.ttf");
+}
 
 
 html {
@@ -56,7 +60,7 @@ html {
 }
 
 body {
-    font-family: arial;
+    font-family: "Trade Gothic";
     background-image: url("images/background.jpg");
     background-size: cover;
 }
@@ -112,58 +116,37 @@ article a{
 	text-decoration: none;
 }
 
-#APRENDE{
+#APRENDE, #REQUISITOS, #DONAR {
 	padding-top: 1em;
 	width: 19em;
-
-
+	text-transform: uppercase;
 }
 
-#REQUISITOS{
-	padding-top: 1em;
-	width: 19em;
-}
-
-#DONAR{
-	padding-top: 1em;
-	width: 19em;
+section {
+	text-align: center;
 }
 
 section div {
 	margin-top: 5em;
     text-align: center;
     display: inline-block;
-		margin:2em;
-		color:white;
-		font-weight: 800;
-		display:inline-table;
+	margin:2em;
+	color:white;
+	display:inline-table;
 
 }
 
 #titulo{
-		width: 95.3%;
 		color: white;
 		text-align: center;
-		padding-top: 2em;
-		padding-bottom: 2em;
-		font-weight: 800;
+		font-size: 2em;
+		text-transform: uppercase;
 }
 
-#info{
+.imatges-inici {
 	width: 6em;
 	margin-bottom: 0.4em;
 }
-
-#requisitos{
-  width: 6em;
-	margin-bottom: 0.4em;
-}
-
-#donar{
-    width: 6em;
-		margin-bottom: 0.4em;
-  }
-
 
 footer{
 	position: relative;
