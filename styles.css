@@ -106,9 +106,10 @@ header div{
 }
 
 article {
-
+	
 		text-align: center;
 		color: white;
+
 }
 
 article a{
@@ -133,6 +134,7 @@ section div {
 	margin:2em;
 	color:white;
 	display:inline-table;
+	height: auto;
 
 }
 
