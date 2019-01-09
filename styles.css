@@ -64,31 +64,37 @@ body {
 
 header{
     display: relative;
-		border-top: 0.25em solid #e42a20;
+	border-top: 0.25em solid #e42a20;
     width: 100%;
     height: 100px;
     background-color: white;
 }
 
 header img {
-        margin-top:0.5em;
-				margin-left:0.2em;
-				width: 13em;
+    margin-top:0.5em;
+	margin-left:0.2em;
+	width: 13em;
 }
 
 header nav {
     position: absolute;
-    top:0;
+    top:.5em;
     right:0;
     text-align: center;
     padding: 0.3em;
-		margin: 0.2em;
+	margin: 0.2em;
 }
 
 header nav i {
     font-size: 2.8em !important;
     color: #4D4D4F;
+	transition: .15s color;
 }
+
+header nav i:hover {
+	color: rgb(228, 42, 32);
+}
+
 header div{
     display: inline-block;
     margin-bottom: 1.5em;
@@ -160,6 +166,8 @@ section div {
 
 
 footer{
+	position: relative;
+	bottom:0;
 	border-top: 0.1em solid white;
 	margin-left: 2em;
 	margin-right: 2em;
