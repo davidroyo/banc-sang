@@ -193,6 +193,7 @@ float: right;
 
 .icono h3 {
 	margin-top: 120px;
+	width: auto;
 }
 
 .icono.donar {
