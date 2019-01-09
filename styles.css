@@ -102,7 +102,7 @@ header div{
 }
 
 article {
-    height:22em;
+
 		text-align: center;
 		color: white;
 }
@@ -166,12 +166,14 @@ section div {
 
 
 footer{
-	position: relative;
+	position:fixed;
 	bottom:0;
 	border-top: 0.1em solid white;
+	color: white;
+	width: 95.5%;
 	margin-left: 2em;
 	margin-right: 2em;
-	color: white;
+
 
 }
 
