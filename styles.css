@@ -203,3 +203,33 @@ float: right;
   color: white;
   font-weight: 800;
 }
+
+.icono {
+	background-size: 145px 145px;
+	background-color: #E32C26;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 2px solid #E32C26;
+	border-radius: 75px;
+	height: 145px;
+	width: 145px;
+	display: inline-block;
+	-webkit-transition: 0.3s all;
+	transition: 0.3s all;
+}
+
+.icono h3 {
+	margin-top: 160px;
+}
+
+.icono.donar {
+	background-image: url("images/icon-donate-01.svg");
+}
+
+.icono.requisitos {
+	background-image: url("images/icon-eligibility-01.svg");
+}
+
+.icono.aprende {
+	background-image: url("images/icon-eligibility-01.svg");
+}
