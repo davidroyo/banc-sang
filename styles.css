@@ -54,7 +54,7 @@ table {
 	src: url("fonts/trade-gothic/Trade Gothic LT Bold.ttf");
 }
 
-
+/*Format pagina general*/
 html {
     overflow-y: auto;
 }
@@ -170,36 +170,13 @@ display: inline-block;
 padding: 1em;
 
 }
-
-
-#info{
-	width: 15em;
-	margin-bottom: 0.4em;
-}
-
-#APRENDE{
-	padding-top: 1em;
-	width: 19em;
-	clear:
-
-}
-
-#divaprende {
-    text-align: center;
-    display: inline-block;
-		color:white;
-		font-weight: 800;
-		display:inline-table;
-
-}
-
-
-
-#contacto, #snosotros{
+.contacto, .nosotros{
 float: right;
 
 }
 
+
+/*Pagina index*/
 .icono {
 	background-size: 145px 145px;
 	background-color: #E32C26;
@@ -228,4 +205,26 @@ float: right;
 
 .icono.aprende {
 	background-image: url("images/icon-learn-01.svg");
+}
+
+
+
+
+/*Pagina aprende*/
+.info{
+	width: 15em;
+	margin-bottom: 0.4em;
+}
+
+.apdrende{
+	padding-top: 1em;
+	width: 19em;
+}
+
+.divaprende {
+    text-align: center;
+    display: inline-block;
+		color:white;
+		font-weight: 800;
+		display:inline-table;
 }
