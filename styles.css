@@ -207,6 +207,10 @@ float: right;
 	background-image: url("images/icon-learn-01.svg");
 }
 
+div p{
+	padding-top: 1em;
+}
+
 
 
 
@@ -216,10 +220,7 @@ float: right;
 	margin-bottom: 0.4em;
 }
 
-.apdrende{
-	padding-top: 1em;
-	width: 19em;
-}
+
 
 .divaprende {
     text-align: center;
