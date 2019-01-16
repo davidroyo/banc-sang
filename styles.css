@@ -60,9 +60,17 @@ html {
 }
 
 body {
-    font-family: "Trade Gothic";
+	font-family: "Trade Gothic";
+}
+
+body.inicio {
     background-image: url("images/background.jpg");
     background-size: cover;
+}
+
+body:not(.inicio) section {
+	background-image: url("images/background.jpg");
+	background-size: cover;
 }
 
 header{
@@ -165,6 +173,11 @@ footer{
 
 }
 
+body:not(.inicio) footer{
+	border-top: 0.1em solid #e32c26;
+	color:#e32c26;
+}
+
 footer div{
 display: inline-block;
 padding: 1em;
@@ -217,8 +230,6 @@ div p{
 	width: 15em;
 	margin-bottom: 0.4em;
 }
-
-
 
 .divaprende {
     text-align: center;
