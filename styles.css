@@ -68,7 +68,7 @@ body.inicio {
     background-size: cover;
 }
 
-body:not(.inicio) section {
+body:not(.inicio) section article:first-child {
 	background-image: url("images/background.jpg");
 	background-size: cover;
 }
@@ -204,10 +204,14 @@ float: right;
 	border: 2px solid #E32C26;
 	border-radius: 75px;
 	height: 100px;
-	width: 100px;
+	width: 150px;
 	display: inline-block;
 	-webkit-transition: 0.3s all;
 	transition: 0.3s all;
+}
+
+.divaprende h3 {
+	font-size: 39px;
 }
 
 .icono h3 {
@@ -240,9 +244,9 @@ div p{
 .divaprende {
     text-align: center;
     display: inline-block;
-		color:white;
-		font-weight: 800;
-		display:inline-table;
+	color:white;
+	font-weight: 800;
+	display:inline-table;
 }
 
 /*Pagina Dona*/
