@@ -73,10 +73,10 @@ body:not(.inicio) section article:first-child {
 	background-size: cover;
 }
 
-.banner-donar{
-	background-image: url("images/backgroundaprende1.jpg") !important;
-	background-size: contain !important;
-	background-repeat: repeat-x;
+.image{
+	background-image: url("images/backgroundaprende1.jpg");
+	background-size: cover;
+
 }
 
 header{
