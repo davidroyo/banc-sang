@@ -258,16 +258,19 @@ div p{
 #navDonar{
 text-align: center;
 display: block;
+background-color: grey;
 }
 
 li{
 	display:inline-table;
-	border: 0.025em;
+	border:0.025em;
+	border-top:0em;
+	border-bottom: 0em;
 	border-color:black;
 	border-style:solid;
 	background-color: grey;
 	width: 9em;
-	height: 3em;
+	height: 4em;
 	color: black;
 	font-size: 22px;
 
