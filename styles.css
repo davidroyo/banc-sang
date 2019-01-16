@@ -255,15 +255,15 @@ div p{
 
 /*Pagina Dona*/
 
-#navDonar{
+.navDonar{
 text-align: center;
 display: block;
 background-color: grey;
 }
 
-li{
+.navDonar li{
 	display:inline-table;
-	border:0.045em;
+	border:0.050em;
 	border-top:0em;
 	border-bottom: 0em;
 	border-color:black;
@@ -274,4 +274,11 @@ li{
 	color: black;
 	font-size: 22px;
 
+}
+.navDonar li:first-child{
+	border-left: 0;
+}
+.navDonar li:last-child{
+	border-right: 0;
+	border-left: 0;
 }
