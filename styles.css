@@ -204,10 +204,14 @@ float: right;
 	border: 2px solid #E32C26;
 	border-radius: 75px;
 	height: 100px;
-	width: 150px;
+	width: 100px;
 	display: inline-block;
 	-webkit-transition: 0.3s all;
 	transition: 0.3s all;
+}
+
+body:not(.inicio) .icono {
+	width: 150px;
 }
 
 .divaprende h3 {
