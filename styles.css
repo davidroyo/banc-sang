@@ -82,9 +82,9 @@ header{
 }
 
 header img {
-    margin-top:0.5em;
+	margin-top: -.5em;
 	margin-left:0.2em;
-	width: 13em;
+	width: 8em;
 }
 
 header nav {
