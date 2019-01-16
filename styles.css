@@ -174,8 +174,8 @@ footer{
 }
 
 body:not(.inicio) footer{
-	border-top: 0.1em solid #e32c26;
-	color:#e32c26;
+	border-top: 0.1em solid #4d4d4f;
+	color:#4d4d4f;
 }
 
 footer div{
