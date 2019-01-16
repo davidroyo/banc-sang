@@ -73,6 +73,12 @@ body:not(.inicio) section {
 	background-size: cover;
 }
 
+.image{
+	background-image: url("images/backgroundaprende1.jpg");
+	background-size: cover;
+
+}
+
 header{
     display: relative;
 	border-top: 0.25em solid #e42a20;
@@ -237,4 +243,24 @@ div p{
 		color:white;
 		font-weight: 800;
 		display:inline-table;
+}
+
+/*Pagina Dona*/
+
+#navDonar{
+text-align: center;
+display: block;
+}
+
+li{
+	display:inline-table;
+	border: 0.025em;
+	border-color:black;
+	border-style:solid;
+	background-color: grey;
+	width: 9em;
+	height: 3em;
+	color: black;
+	font-size: 22px;
+
 }
