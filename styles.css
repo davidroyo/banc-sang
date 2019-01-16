@@ -119,14 +119,12 @@ header div{
     margin:1em;
 }
 
-article {
-
-		text-align: center;
-		color: white;
-
+.inicio article {
+	text-align: center;
+	color: white;
 }
 
-article a{
+.inicio article a{
 	color: white;
 	text-decoration: none;
 }
