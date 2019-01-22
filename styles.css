@@ -256,6 +256,8 @@ div p{
 
 
 
+
+
 /*Pagina Requisitos*/
 
 section.requisitos {
@@ -330,7 +332,7 @@ div.panel.panel-default::before {
 	top: 22px;
 	width: 70px;
 }
-
+/*Donar*/
 .titulo{
 	color:#e42a20;
 	margin-top: -1em;
@@ -404,4 +406,8 @@ font-size: 1.3em;
 .febrer2{
 margin-top: 0.5em;
 margin-bottom: 0.5em;
-font-size: 1.3em;}
+font-size: 1.3em;
+}
+body.donar a{
+	text-decoration:none;
+}
