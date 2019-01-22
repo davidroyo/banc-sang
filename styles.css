@@ -330,3 +330,78 @@ div.panel.panel-default::before {
 	top: 22px;
 	width: 70px;
 }
+
+.titulo{
+	color:#e42a20;
+	margin-top: -1em;
+	margin-bottom: -1em;
+	font-size: 1.5em;
+}
+.titulo2{
+	color:#e42a20;
+	font-size: 1.5em;
+	margin-top: 4em;
+	margin-bottom: 0.1em;
+
+
+}
+.primeroEsquerra{
+	color:black;
+	float:left;
+	border:0.050em;
+	border-style: solid;
+	border-radius: 0.5em;
+	border-color: #e0e0e0;
+	text-align: center;
+	width: 16em;
+	height: 9.5em;
+	background-color: #f3f4f4;
+	box-shadow:0px 0px 3px 1px #e8e9e9;
+}
+.primeroEsquerra h3{
+	margin-top: 0.5em;
+
+}
+.primero{
+	color:black;
+	float:left;
+	border:0.050em;
+	border-style: solid;
+	border-radius: 0.5em;
+	border-color: #e0e0e0;
+	text-align: center;
+	width: 16em;
+	height: 9.5em;
+	background-color: #f3f4f4;
+	box-shadow:0px 0px 3px 1px #e8e9e9;
+
+}
+.primero h3{
+	margin-top: 0.5em;
+
+}
+.primero p{
+	margin-top: 1em;
+}
+.leerMas{
+	color:#e42a20;
+}
+.centros{
+	margin-bottom: -0.2em;
+}
+.abajo{
+	color:#e42a20;
+	margin-top: -1em;
+}
+.flechas{
+	margin-top: 0.3em;
+	width: 1em;
+}
+.febrer{
+margin-top: 3em;
+font-size: 1.3em;
+}
+.febrer2{
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+font-size: 1.3em;}
