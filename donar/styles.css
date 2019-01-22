@@ -238,176 +238,32 @@ div p{
 	padding-top: 1em;
 }
 
-/*Pagina aprende*/
-.info{
-	width: 15em;
-	margin-bottom: 0.4em;
-}
-
-.divaprende {
-    text-align: center;
-    display: inline-block;
-	color:white;
-	font-weight: 800;
-	display:inline-table;
-}
-
 /*Pagina Dona*/
-
-
-
-
-
-/*Pagina Requisitos*/
-
-section.requisitos {
-	counter-reset: section;
-}
-
-section article:last-child {
-	padding-bottom: 100px;
-}
-
-div.panel.panel-default {
-	top: 50px;
-	width:600px;
-	height:120px;
-	background-color: rgb(255, 255, 255);
-	border-bottom-color: rgb(204, 204, 204);
-	border-bottom-left-radius: 0px;
-	border-bottom-right-radius: 0px;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	border-image-outset: 0;
-	border-image-repeat: stretch stretch;
-	border-image-slice: 100%;
-	border-image-source: none;
-	border-image-width: 1;
-	border-left-color: rgb(204, 204, 204);
-	border-left-style: solid;
-	border-left-width: 1px;
-	border-right-color: rgb(204, 204, 204);
-	border-right-style: solid;
-	border-right-width: 1px;
-	border-top-color: rgb(204, 204, 204);
-	border-top-left-radius: 0px;
-	border-top-right-radius: 0px;
-	border-top-style: solid;
-	border-top-width: 1px;
-	box-shadow: rgb(128, 128, 128) 1px 3px 23px -11px;
-	box-sizing: border-box;
-	color: rgb(74, 74, 74);
-	font-family: "Open Sans", sans-serif;
-	font-size: 16px;
-	line-height: 22.85px;
-	margin-bottom: 30px;
-	margin-top: 0px;
-	min-height: 120px;
-	padding-bottom: 12px;
-	padding-left: 45px;
-	padding-right: 0px;
-	padding-top: 12px;
-	position: relative;
-	text-align: left;
-}
-
-div.panel.panel-default::before {
-	background-color: rgb(213, 22, 41);
-	border-bottom-left-radius: 49px;
-	border-bottom-right-radius: 49px;
-	border-top-left-radius: 49px;
-	border-top-right-radius: 49px;
-	box-sizing: border-box;
-	color: rgb(255, 255, 255);
-	content: counter(section) " ";
-	counter-increment: section 1;
-	display: table;
-	font-family: "Open Sans", sans-serif;
-	font-size: 34px;
-	height: 70px;
-	left: -38px;
-	line-height: 68px;
-	position: absolute;
-	text-align: center;
-	top: 22px;
-	width: 70px;
-}
-/*Donar*/
-.titulo{
-	color:#e42a20;
-	margin-top: -1em;
-	margin-bottom: -1em;
-	font-size: 1.5em;
-}
-.titulo2{
-	color:#e42a20;
-	font-size: 1.5em;
-	margin-top: 4em;
-	margin-bottom: 0.1em;
-
-
-}
-.primeroEsquerra{
+.ubicacio1{
 	color:black;
-	float:left;
-	border:0.050em;
-	border-style: solid;
-	border-radius: 0.5em;
-	border-color: #e0e0e0;
+	font-size: 2.5em !important;
+	margin: 0.2em;
 	text-align: center;
-	width: 16em;
-	height: 9.5em;
-	background-color: #f3f4f4;
-	box-shadow:0px 0px 3px 1px #e8e9e9;
 }
-.primeroEsquerra h3{
-	margin-top: 0.5em;
 
-}
-.primero{
+.ubicacio1 p{
 	color:black;
-	float:left;
-	border:0.050em;
-	border-style: solid;
-	border-radius: 0.5em;
-	border-color: #e0e0e0;
+	font-size: 17px;
+}
+.encuentracentro1{
+	color: black;
+	margin: 0.5em;
 	text-align: center;
-	width: 16em;
-	height: 9.5em;
-	background-color: #f3f4f4;
-	box-shadow:0px 0px 3px 1px #e8e9e9;
+}
+.encuentracentro1 i{
+	font-size: 2.5em !important;
+}
 
+.encuentracentro1:last-child{
+	color: black;
+	margin: 0.5em;
+	text-align: center;
 }
-.primero h3{
-	margin-top: 0.5em;
-
-}
-.primero p{
-	margin-top: 1em;
-}
-.leerMas{
-	color:#e42a20;
-}
-.centros{
-	margin-bottom: -0.2em;
-}
-.abajo{
-	color:#e42a20;
-	margin-top: -1em;
-}
-.flechas{
-	margin-top: 0.3em;
-	width: 1em;
-}
-.febrer{
-margin-top: 3em;
-font-size: 1.3em;
-}
-.febrer2{
-margin-top: 0.5em;
-margin-bottom: 0.5em;
-font-size: 1.3em;
-}
-body.donar a{
-	text-decoration:none;
+.encuentracentro1:last-child i{
+	font-size: 2.5em !important;
 }
