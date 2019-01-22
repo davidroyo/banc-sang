@@ -57,6 +57,7 @@ table {
 /*Format pagina general*/
 html {
     overflow-y: auto;
+	min-width: 450px;
 }
 
 body {
@@ -252,6 +253,19 @@ div p{
 	display:inline-table;
 }
 
+.aprende article:nth-child(2) {
+	padding-top: 50px;
+}
+
+body.aprende p{
+	color: rgb(77, 77, 79);
+}
+
+.porcentaje-donar img{
+	width: 70% ;
+	min-width: 350px;
+}
+
 /*Pagina Requisitos*/
 
 section.requisitos {
@@ -326,6 +340,17 @@ div.panel.panel-default::before {
 	top: 22px;
 	width: 70px;
 }
+
+body:not(.inicio) h2 {
+	color: #e42a20;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+body.requisitos h2:first-child {
+	margin-top: 50px;
+}
+
 /*Donar*/
 .titulo{
 	color:#e42a20;
