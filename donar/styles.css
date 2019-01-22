@@ -49,7 +49,7 @@ table {
 @import url("https://www.donateblood.com.au/sites/all/themes/custom/arcbs/assets/webfonts/2D3451_1_0.woff2");
 @font-face {
 	font-family: "Trade Gothic";
-	src: url("fonts/trade-gothic/Trade Gothic LT Bold.ttf");
+	src: url("../fonts/trade-gothic/Trade Gothic LT Bold.ttf");
 }
 
 /*Format pagina general*/
@@ -62,7 +62,7 @@ body {
 }
 
 .banner-donar{
-	background-image: url("../../images/backgroundaprende1.jpg") !important;
+	background-image: url("../images/backgroundaprende1.jpg") !important;
 	background-size: contain !important;
 	background-repeat: repeat-x;
 
@@ -115,7 +115,6 @@ footer{
 	width: 95.5%;
 	margin-left: 2em;
 	margin-right: 2em;
-
 
 }
 
