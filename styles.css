@@ -253,3 +253,80 @@ div p{
 }
 
 /*Pagina Dona*/
+
+
+
+/*Pagina Requisitos*/
+
+section.requisitos {
+	counter-reset: section;
+}
+
+section article:last-child {
+	padding-bottom: 100px;
+}
+
+div.panel.panel-default {
+	top: 50px;
+	width:600px;
+	height:120px;
+	background-color: rgb(255, 255, 255);
+	border-bottom-color: rgb(204, 204, 204);
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0;
+	border-image-repeat: stretch stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(204, 204, 204);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(204, 204, 204);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(204, 204, 204);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgb(128, 128, 128) 1px 3px 23px -11px;
+	box-sizing: border-box;
+	color: rgb(74, 74, 74);
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	line-height: 22.85px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	min-height: 120px;
+	padding-bottom: 12px;
+	padding-left: 45px;
+	padding-right: 0px;
+	padding-top: 12px;
+	position: relative;
+	text-align: left;
+}
+
+div.panel.panel-default::before {
+	background-color: rgb(213, 22, 41);
+	border-bottom-left-radius: 49px;
+	border-bottom-right-radius: 49px;
+	border-top-left-radius: 49px;
+	border-top-right-radius: 49px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	content: counter(section) " ";
+	counter-increment: section 1;
+	display: table;
+	font-family: "Open Sans", sans-serif;
+	font-size: 34px;
+	height: 70px;
+	left: -38px;
+	line-height: 68px;
+	position: absolute;
+	text-align: center;
+	top: 22px;
+	width: 70px;
+}
