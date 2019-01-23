@@ -80,6 +80,11 @@ body:not(.inicio) section article:first-child {
 
 }
 
+.banner-requisits{
+	background-image: url("../images/requisitos.jpg") !important;
+	background-size: cover;
+}
+
 header{
     display: relative;
 	border-top: 0.25em solid #e42a20;
