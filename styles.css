@@ -88,6 +88,13 @@ body:not(.inicio) section article:first-child {
 	background-repeat: repeat-x;
 
 }
+.banner-requisits{
+	background-image: url("images/requisitos.jpg") !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
 .banner-conocenos{
 	background-image: url("images/conocenosbanner.jpg") !important;
 	background-size: cover !important;
@@ -539,13 +546,13 @@ body.donar a{
 .sobrenosotros{
 background-color: #A3222A;
 width: 100%;
-
+max-width: 966px;
 border-radius: 0.5em;
 margin-bottom: 0.5em;
 }
 
 .sobrenosotros h3{
-	width: 100%;
+
 	display: flex;
 	color: white !important;
 	margin: 1em;
@@ -560,6 +567,9 @@ margin-bottom: 0.5em;
 	width: 100%;
 	border-radius: 0.5em;
 }
+.divinfo{
+
+}
 
 .info{
 	color:black;
@@ -573,6 +583,7 @@ margin-bottom: 0.5em;
 	height: 11em;
 	background-color: #f3f4f4;
 	box-shadow:0px 0px 3px 1px #e8e9e9;
+	display: inline-block;
 }
 .info h3{
 	color:#A3222A;
