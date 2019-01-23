@@ -53,6 +53,10 @@ table {
 	font-family: "Trade Gothic";
 	src: url("fonts/trade-gothic/Trade Gothic LT Bold.ttf");
 }
+@font-face {
+	font-family: "Trade Gothic Light";
+	src: url("fonts/trade-gothic/Trade Gothic LT Light.ttf");
+}
 
 /*Format pagina general*/
 html {
@@ -62,6 +66,10 @@ html {
 
 body {
 	font-family: "Trade Gothic";
+}
+
+body.aprende p {
+	font-family: "Trade Gothic Light";
 }
 
 body.inicio {
@@ -208,7 +216,6 @@ footer a{
 
 }
 
-
 /*Pagina index*/
 .icono {
 	background-size: 100px 100px;
@@ -271,6 +278,10 @@ div p{
 	padding-top: 50px;
 }
 
+.aprende article:last-child {
+	margin-bottom: 100px;
+}
+
 body.aprende p{
 	color: rgb(77, 77, 79);
 }
@@ -278,6 +289,28 @@ body.aprende p{
 .porcentaje-donar img{
 	width: 70% ;
 	min-width: 350px;
+}
+
+.aprende .contingut h3{
+	font-size: 24px;
+	color: rgb(77, 77, 79);
+}
+
+.aprende .contingut h2{
+	font-size: 32px;
+}
+
+.aprende .contingut p {
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+.aprende .space-between {
+	padding: 0 20%;
+}
+
+.aprende .contingut h3 {
+	text-align: left;
 }
 
 /*Pagina Requisitos*/
