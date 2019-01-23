@@ -532,16 +532,20 @@ body.donar a{
 }
 
 /*sobrenosotros*/
+.conocenos-imatge{
+	margin-left: 10em;
+	margin-right: 10em;
+}
 .sobrenosotros{
 background-color: #A3222A;
-width: 61em;
-margin-left:1em;
-margin-right: 1em;
+width: 100%;
+
 border-radius: 0.5em;
 margin-bottom: 0.5em;
 }
 
 .sobrenosotros h3{
+	width: 100%;
 	display: flex;
 	color: white !important;
 	margin: 1em;
@@ -553,11 +557,11 @@ margin-bottom: 0.5em;
 
 }
 #banc-de-sang{
-	width: 61em;
+	width: 100%;
 	border-radius: 0.5em;
 }
 
-.infoconocenos{
+.info{
 	color:black;
 	float:left;
 	border:0.050em;
@@ -566,12 +570,11 @@ margin-bottom: 0.5em;
 	border-color: #e0e0e0;
 	text-align: center;
 	width: 13em;
-	height: 9.5em;
+	height: 11em;
 	background-color: #f3f4f4;
 	box-shadow:0px 0px 3px 1px #e8e9e9;
-	margin-left: 4em;
 }
-.infoconocenos h3{
+.info h3{
 	color:#A3222A;
 	margin: 1em;
 	margin-bottom: 0em;
@@ -584,8 +587,6 @@ margin-bottom: 0.5em;
 	margin: 1em;
 	margin-top:0em;
 	color: #333333;
-
 	text-align: left;
-
 
 }
