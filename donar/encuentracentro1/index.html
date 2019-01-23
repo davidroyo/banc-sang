@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="../../js/menu.js"></script>
   </head>
   <body class="donar">
     <header>
@@ -21,9 +22,21 @@
                 </a>
             </div>
 
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="../../">Inicio</a>
+                <a href="../../conocenos">Sobre nosotros</a>
+                <a href="../">Donar</a>
+                <a href="../../requisitos">Requisitos</a>
+                <a href="../../aprende">Aprende</a>
+                <a href="#">Contacto</a>
+              </div>
+            </div>
+
             <div class="menu">
                 <a href="#">
-                    <i class="fa fa-bars"></i><br>
+                    <i onclick="openNav()" class="fa fa-bars"></i><br>
                 </a>
             </div>
         </nav>

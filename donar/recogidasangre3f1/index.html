@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="ca">
-  <head>
-    <title>Banc de sang</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-  </head>
-  <body class="donar">
-    <header>
-        <div id="logo">
-            <a class="link" href="../../">
-                <img id="logo" src="../../images/banc-de-sang-2.png" alt="Logo"</img>
-            </a>
-        </div>
-        <nav>
-            <div class="ubicacio">
-                <a href="#">
-                    <i class="fa fa-map-marker"></i><br>
-                </a>
-            </div>
+<head>
+  <title>Banc de sang</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <script src="../../js/menu.js"></script>
+</head>
+<body class="donar">
+  <header>
+      <div id="logo">
+          <a class="link" href="../../">
+              <img id="logo" src="../../images/banc-de-sang-2.png" alt="Logo"</img>
+          </a>
+      </div>
+      <nav>
+          <div class="ubicacio">
+              <a href="#">
+                  <i class="fa fa-map-marker"></i><br>
+              </a>
+          </div>
 
-            <div class="menu">
-                <a href="#">
-                    <i class="fa fa-bars"></i><br>
-                </a>
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="../../">Inicio</a>
+              <a href="../../conocenos">Sobre nosotros</a>
+              <a href="../">Donar</a>
+              <a href="../../requisitos">Requisitos</a>
+              <a href="../../aprende">Aprende</a>
+              <a href="#">Contacto</a>
             </div>
-        </nav>
+          </div>
+
+          <div class="menu">
+              <a href="#">
+                  <i onclick="openNav()" class="fa fa-bars"></i><br>
+              </a>
+          </div>
+      </nav>
     </header>
 
     <section class="imatge">
