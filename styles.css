@@ -80,6 +80,14 @@ body:not(.inicio) section article:first-child {
 	background-repeat: repeat-x;
 
 }
+.banner-conocenos{
+	background-image: url("images/conocenosbanner.jpg") !important;
+	background-size: cover !important;
+		background-repeat:no-repeat;
+	height: 8em;
+
+
+}
 
 header{
     display: relative;
@@ -191,6 +199,12 @@ padding: 1em;
 }
 .contacto, .nosotros{
 float: right;
+
+
+}
+footer a{
+	text-decoration: none;
+	color: white;
 
 }
 
@@ -430,3 +444,18 @@ font-size: 1.3em;
 body.donar a{
 	text-decoration:none;
 }
+
+/*sobrenosotros*/
+.sobrenosotros{
+background-color: #A3222A;
+width: 80em;
+margin-left:1em;
+margin-right: 1em;
+border-radius: 0.5em;
+}
+
+.sobrenosotros h3{
+	display: flex;
+	color: white !important;
+	margin: 1em;
+	text-align: center;
