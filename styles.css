@@ -585,12 +585,21 @@ margin-bottom: 0.5em;
 	box-shadow:0px 0px 3px 1px #e8e9e9;
 	display: inline-block;
 }
-.info h3{
+.info, .contacte h3{
 	color:#A3222A;
+	margin: 1em;
+	margin-bottom: 0.5em;
+	margin-top:0.3em;
+	font-size: 20px;
+	text-align: left;
+}
+.contacte h5{
+
+	color:black;
 	margin: 1em;
 	margin-bottom: 0em;
 	margin-top:0.3em;
-	font-size: 20px;
+	font-size: 14px;
 	text-align: left;
 }
 
@@ -599,5 +608,24 @@ margin-bottom: 0.5em;
 	margin-top:0em;
 	color: #333333;
 	text-align: left;
+
+}
+
+/*contacto*/
+
+.contacte{
+	color:#A3222A;
+	color:black;
+	float:left;
+	border:0.050em;
+	border-style: solid;
+	border-radius: 0.5em;
+	border-color: #e0e0e0;
+	text-align: left;
+	width: 40%;
+	height: 8em;
+	background-color: #f3f4f4;
+	box-shadow:0px 0px 3px 1px #e8e9e9;
+	margin: 0em;
 
 }
