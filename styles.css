@@ -98,10 +98,15 @@ body:not(.inicio) section article:first-child {
 .banner-conocenos{
 	background-image: url("images/conocenosbanner.jpg") !important;
 	background-size: cover !important;
-		background-repeat:no-repeat;
+	background-repeat:no-repeat;
 	height: 8em;
+}
 
-
+.banner-ubicacio{
+	background-image: url("images/ubicacio.jpg") !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 13em;
 }
 
 header{
