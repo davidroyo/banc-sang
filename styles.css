@@ -546,8 +546,8 @@ body.donar a{
 
 /*sobrenosotros*/
 .conocenos-imatge{
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .sobrenosotros{
 background-color: #A3222A;
@@ -585,7 +585,7 @@ margin-bottom: 0.5em;
 	border-radius: 0.5em;
 	border-color: #e0e0e0;
 	text-align: center;
-	width: 13em;
+	width: 80%;
 	height: 11em;
 	background-color: #f3f4f4;
 	box-shadow:0px 0px 3px 1px #e8e9e9;
