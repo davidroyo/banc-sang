@@ -551,11 +551,14 @@ body.donar a{
 	margin-right: 10%;
 }
 .sobrenosotros{
+	width:100%;
 background-color: #A3222A;
-width: 100%;
 max-width: 966px;
 border-radius: 0.5em;
-margin-bottom: 0.5em;
+margin-bottom: 8px !important;
+margin-left: 32px !important;
+margin-right: 32px !important;
+margin-top: 32px !important;
 }
 
 .sobrenosotros h3{
@@ -568,7 +571,6 @@ margin-bottom: 0.5em;
 
 .imatge-bancsang{
 	margin-top: 0.5em;
-
 }
 #banc-de-sang{
 	width: 100%;
@@ -592,7 +594,7 @@ margin-bottom: 0.5em;
 	box-shadow:0px 0px 3px 1px #e8e9e9;
 	display: inline-block;
 }
-.info, .contacte h3{
+.info, .contacte h3, .div-formulari h3{
 	color:#A3222A;
 	margin: 1em;
 	margin-bottom: 0.5em;
@@ -635,4 +637,31 @@ margin-bottom: 0.5em;
 	box-shadow:0px 0px 3px 1px #e8e9e9;
 	margin: 0em;
 
+}
+
+.div-formulari {
+	margin: 0;
+	width: 50%;
+	color:#A3222A;
+	color:black;
+	border:0.050em;
+	border-style: solid;
+	border-radius: 0.5em;
+	border-color: #e0e0e0;
+	background-color: #f3f4f4;
+	box-shadow:0px 0px 3px 1px #e8e9e9;
+}
+
+.formulari label {
+	margin-bottom:10px;
+}
+
+.formulari p {
+	width: 100%;
+	display: inline-block;
+	text-align:left;
+}
+
+.formulario-enviar {
+	margin-bottom: 10px;
 }

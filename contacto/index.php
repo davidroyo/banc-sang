@@ -61,9 +61,49 @@
           <h5>Provincia: Provincia de Barcelona</h5>
           <h5>Dirección: 14, Plaça del Nord, 08024 Barcelona</h5>
         </div>
-        <div class="formulari">
-          <h3>Ponte en contacto</h3>
-          <p>formulari.</p>
+        <div class="div-formulari">
+            <h3>Ponte en contacto:</h3>
+          <form class="formulari" method="post" action="index.php">
+           <p>
+             <label>Nombre</label>
+             <input name="nom" class="w3-input" type="text"></p>
+           <p>
+             <label>Email</label>
+             <input name="email" class="w3-input" type="email"></p>
+           <p>
+             <label>Mensaje</label>
+             <input type="text" class="w3-input" name="missatge">
+         </p><br>
+           <input id="submit" class="formulario-enviar" name="submit" type="submit" value="ENVIAR"><br>
+           </form>
+
+        <?php
+        if(!empty($_POST)) {
+           $nom = $_POST['nom'];
+           $email = $_POST['email'];
+           $missatge = $_POST['missatge'];
+           $from = 'De: Banco de sangre La Salle Gracia';
+           $to = 'test@test.com';
+           $subject = 'Contacto Banco de sangre';
+
+           $body = "Mensaje del banco de sangre la salle gracia.\n\nNombre:".$nom."\nCorreo: ".$email."\nMensaje: ".$missatge;
+
+
+           if ($_POST['submit']) {
+               if (mail ($to, $subject, $body, $from)) {
+                   print"<p>El mensaje se ha enviado correctamente!</p>";
+
+                   $from = 'De: Banco de sangre La Salle Gracia';
+                   $subject = 'Hemos recibido tu mensaje';
+
+                   $body = "Tu mensaje ha sido recibido correctamente\nPor favor, no contestar a este correo.";
+                   mail ($email, $subject, $body, $from);
+               } else {
+                   print"<p>Alguna cosa ha fallado al enviar el correo, intente otra vez.</p>";
+               }
+           }
+       }
+        ?>
         </div>
 
         </div>
