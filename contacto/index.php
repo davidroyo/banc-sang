@@ -83,7 +83,7 @@
            $email = $_POST['email'];
            $missatge = $_POST['missatge'];
            $from = 'De: Banco de sangre La Salle Gracia';
-           $to = 'test@test.com';
+           $to = 'droyovirgili@gmail.com';
            $subject = 'Contacto Banco de sangre';
 
            $body = "Mensaje del banco de sangre la salle gracia.\n\nNombre:".$nom."\nCorreo: ".$email."\nMensaje: ".$missatge;
@@ -119,10 +119,10 @@
         <h3>TERMINOS Y CONDICIONES</h3>
       </div>
       <div class="contacto">
-        <h3>CONTACTO</h3>
+        <a href="#"><h3>CONTACTO</h3></a>
       </div>
       <div class="nosotros">
-        <h3>SOBRE NOSOTROS</h3>
+        <a href="../conocenos/"><h3>SOBRE NOSOTROS</h3></a>
       </div>
     </footer>
   </body>
